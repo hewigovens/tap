@@ -8,6 +8,7 @@ cask "jayjay" do
   homepage "https://github.com/hewigovens/jayjay"
 
   depends_on macos: ">= :sequoia"
+  depends_on formula: "jj"
 
   app "JayJay.app"
 
