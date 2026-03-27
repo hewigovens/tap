@@ -7,6 +7,7 @@ Custom tap for personal macOS utilities.
 - `app-detective` – System analyzer utility.
 - `staged-launcher` – Stage Manager helper.
 - `amux` – Tiny CLI that keeps local AI/code agents organized inside tmux.
+- `github-desktop-tip` – GitHub Desktop tip build (cask).
 
 ## Usage
 
