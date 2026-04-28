@@ -1,6 +1,6 @@
 cask "ghosttile" do
-  version "2.0.3,20"
-  sha256 "9d31f0e690a1b3e46db49e1214904b763bd703b667c339d83bc051bd1ca2989b"
+  version "2.0.4,21"
+  sha256 "f0b70eea2b1de5729f9f3a9b59a9f699ad6a36df3137b04980e5825c892127bf"
 
   url "https://github.com/hewigovens/ghosttile-cli/releases/download/v#{version.csv.first}/GhostTile-#{version.csv.first}.zip"
   name "GhostTile"
