@@ -7,7 +7,7 @@ cask "miso" do
   desc "HUD-style input method switcher"
   homepage "https://github.com/hewigovens/Miso"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Miso.app"
 

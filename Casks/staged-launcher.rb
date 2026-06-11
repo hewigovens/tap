@@ -7,7 +7,7 @@ cask "staged-launcher" do
   desc "Stage Manager workspace launcher"
   homepage "https://github.com/hewigovens/StagedLauncher"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Staged Launcher.app"
 

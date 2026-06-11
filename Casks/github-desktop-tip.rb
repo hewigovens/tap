@@ -7,7 +7,7 @@ cask "github-desktop-tip" do
   desc "GitHub Desktop tip build from hewigovens/github-desktop"
   homepage "https://github.com/hewigovens/github-desktop"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "GitHub Desktop.app"
 

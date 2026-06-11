@@ -7,7 +7,7 @@ cask "ghosttile" do
   desc "Hide apps from Dock and Cmd+Tab"
   homepage "https://github.com/hewigovens/ghosttile-cli"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "GhostTile.app"
 

@@ -7,7 +7,7 @@ cask "app-detective" do
   desc "Inspect macOS apps for embedded frameworks and plug-ins"
   homepage "https://github.com/hewigovens/app-detective"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AppDetective.app"
 
