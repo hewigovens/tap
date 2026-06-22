@@ -1,6 +1,6 @@
 cask "jayjay" do
-  version "0.2.28,33"
-  sha256 "25d341772586a2de6db37cd893bf4b8bb6a4fbce09a960cf307a3ef0e8ef05d6"
+  version "0.3.0,34"
+  sha256 "09a2037cae027464b93cf81765b2c49b20c6e1eae089a8d1b93a4830409cdb69"
 
   url "https://github.com/hewigovens/jayjay/releases/download/v#{version.csv.first}/JayJay-#{version.csv.first}.zip"
   name "JayJay"
@@ -8,7 +8,7 @@ cask "jayjay" do
   homepage "https://github.com/hewigovens/jayjay"
 
   auto_updates true
-  depends_on macos: :sequoia
+  depends_on macos: :tahoe
   depends_on formula: "jj"
 
   app "JayJay.app"
