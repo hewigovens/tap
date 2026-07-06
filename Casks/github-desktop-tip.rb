@@ -1,6 +1,6 @@
 cask "github-desktop-tip" do
-  version "20260625-b46ed5831c"
-  sha256 "2ddf51eae80ab0be813f0a61a8a2c46af9024694b16f8e1411631504f07d34dd"
+  version "20260706-69c253859b"
+  sha256 "ba5347f461ac2a19fdce2eba472f963c1ad6d026ee0bdcea733ee08a44ec7f78"
 
   url "https://github.com/hewigovens/github-desktop/releases/download/tip-#{version}/GitHub.Desktop-arm64.zip"
   name "GitHub Desktop (Tip)"
