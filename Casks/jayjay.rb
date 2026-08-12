@@ -1,6 +1,6 @@
 cask "jayjay" do
-  version "0.3.13,47"
-  sha256 "58eb8c833aac13c2d001563faef71fe4e669b208869877721e702325dc7abfba"
+  version "0.3.14,48"
+  sha256 "f4c3852cdfc4ad4df10cc534e6f27d9a40c4add3d2848ba4d1da239279a15ed9"
 
   url "https://github.com/hewigovens/jayjay/releases/download/v#{version.csv.first}/JayJay-#{version.csv.first}.zip"
   name "JayJay"
