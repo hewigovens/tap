@@ -11,10 +11,12 @@ cask "ghosttile" do
 
   app "GhostTile.app"
 
-  postflight do
-    system_command "#{appdir}/GhostTile.app/Contents/Resources/ghosttile-cli",
-                   args: ["--version"],
-                   print_stderr: false
+  postflight_steps do
+    run "GhostTile.app/Contents/Resources/ghosttile-cli",
+        base:         :appdir,
+        args:         ["--version"],
+        must_succeed: false,
+        print_stderr: false
   end
 
   zap trash: [
