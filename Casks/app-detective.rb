@@ -1,6 +1,6 @@
 cask "app-detective" do
-  version "1.4.1"
-  sha256 "1fd554d026a6280a3d7fdcbced88e27e8ed02f3527626d6b34629944eab82662"
+  version "1.5.0"
+  sha256 "83bbd00b8b9e241587ca5eed4f994410348a5c5975f99aba96ab47db179a61ed"
 
   url "https://github.com/hewigovens/app-detective/releases/download/#{version}/AppDetective-#{version}.zip"
   name "App Detective"
