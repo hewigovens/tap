@@ -6,6 +6,7 @@ Custom tap for personal macOS utilities.
 - `miso` – Method Input Switch Overlay.
 - `app-detective` – System analyzer utility.
 - `staged-launcher` – Stage Manager helper.
+- `remote-launcher` – High Performance Screen Sharing launcher for remote Macs.
 - `amux` – Tiny CLI that keeps local AI/code agents organized inside tmux.
 - `github-desktop-tip` – GitHub Desktop tip build (cask).
 
