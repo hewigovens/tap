@@ -1,6 +1,6 @@
 cask "remote-launcher" do
-  version "0.1.3"
-  sha256 "b9d441a6ed098d7a8b202c584abda30a013b878fa40fcc500fe74cd69d8d2532"
+  version "0.1.4"
+  sha256 "09c5b8d666ec462e0a8c8e95aaa28e464aefd5d30828afa64b65a22706346ae9"
 
   url "https://github.com/hewigovens/remote-launcher/releases/download/v#{version}/RemoteLauncher-#{version}-macos-arm64.zip"
   name "Remote Launcher"
