@@ -1,6 +1,6 @@
 cask "github-desktop-tip" do
-  version "20260831-80cd0b229b"
-  sha256 "b20eea0b2cdc0f2cd878de37e4cc6301c96712b98077aeba9f329c06cbb8be03"
+  version "20261110-e10110cc9b"
+  sha256 "0e95552f89ede83cb504b137a519bc58d2efd6ba8dca98f30c8531b1dcaad4b2"
 
   url "https://github.com/hewigovens/github-desktop/releases/download/tip-#{version}/GitHub.Desktop-arm64.zip"
   name "GitHub Desktop (Tip)"
@@ -8,7 +8,7 @@ cask "github-desktop-tip" do
   homepage "https://github.com/hewigovens/github-desktop"
 
   conflicts_with cask: "github-desktop"
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "GitHub Desktop.app"
 
