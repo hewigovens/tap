@@ -9,6 +9,7 @@ Custom tap for personal macOS utilities.
 - `remote-launcher` – High Performance Screen Sharing launcher for remote Macs.
 - `amux` – Tiny CLI that keeps local AI/code agents organized inside tmux.
 - `github-desktop-tip` – GitHub Desktop tip build (cask).
+- `font-hanori` – Hanori Sans/Serif fonts for English, Chinese, and Japanese with optional furigana (cask).
 
 ## Usage
 
