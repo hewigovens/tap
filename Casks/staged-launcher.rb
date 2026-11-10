@@ -1,6 +1,6 @@
 cask "staged-launcher" do
-  version "1.0.2"
-  sha256 "854eb1811d11b181f126725bd1cb561db5d996d2d8a46f2235e742cffd98319b"
+  version "1.0.3"
+  sha256 "a21b0602cf2f3b910a9ef9b3192cdedb5ee8d2cc44b1ded1e30dac30b1d444b0"
 
   url "https://github.com/hewigovens/StagedLauncher/releases/download/#{version}/Staged.Launcher.zip"
   name "Staged Launcher"
