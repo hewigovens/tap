@@ -1,6 +1,6 @@
 cask "font-hanori" do
-  version "0.1.3"
-  sha256 "9e9a0f748714cf6db213d012e556cf2e7503ecf85bfe75005fd874beea1c063b"
+  version "0.1.4"
+  sha256 "35a64f23c4903900c6960880c3054a8a2c12fd14a0c23fa4bf784451b642e25d"
 
   url "https://github.com/hewigovens/hanori-sans/releases/download/v#{version}/Hanori-#{version}.zip"
   name "Hanori"
